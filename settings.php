@@ -53,3 +53,11 @@ function debug_mode(){
 }
 //Set debug mode.
 debug_mode();
+/**
+ * Set autoload implementation
+ * @param $class
+ */
+function my_autoloader($class){
+    include(ABSPATH."/class/{$class}.class.php");
+}
+spl_autoload_register('my_autoloader');
