@@ -32,6 +32,12 @@ define('WKF_COLLABORATIF', 3);
 /**
  * SMTP configuration
  */
+define ('SMTPHOST', 'mail.xxxxx.be');
 define ('SMTPAUTH',	false);
 define ('SMTPUSERNAME',	'aperuwel');
 define ('SMTPPASSWORD', 'peruwelz');
+
+if (!defined('ABSPATH'))
+    define('ABSPATH', dirname(__FILE__) . '/');
+// Sets up
+require_once(ABSPATH . 'settings.php');
