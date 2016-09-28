@@ -14,4 +14,5 @@ echo <<<HTML
             </div>
         </div>
 HTML;
+
 require_once ('footer.php');

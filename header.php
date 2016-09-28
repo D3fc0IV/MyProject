@@ -5,6 +5,9 @@
  * Date: 23-09-16
  * Time: 09:17
  */
+if(file_exists(dirname( __FILE__ ).'\load.php')){
+    require_once (dirname( __FILE__ ).'\load.php');
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,6 +20,10 @@
             padding-top: 50px;
             background-color: #d35400;
             color: #FFF;
+        }
+        body footer{
+            text-align: center;
+            font-size: 6px;
         }
         .starter-template {
             padding: 40px 15px;

@@ -8,9 +8,9 @@
 /**
  * General settings
  */
-define('MODE_DEBUG', false);
-define('MODE_DEBUG_LOG', false);
-define('MODE_DEBUG_DISPLAY', false);
+define('MODE_DEBUG', true);
+define('MODE_DEBUG_LOG', true);
+define('MODE_DEBUG_DISPLAY', true);
 /**
  * MySQL settings
  */
