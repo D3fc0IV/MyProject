@@ -1,3 +1,0 @@
-[28-Sep-2016 16:52:18 Europe/Paris] PHP Fatal error:  Call to undefined function file_path() in C:\wamp\www\test\index.php on line 18
-[28-Sep-2016 16:52:18 Europe/Paris] PHP Stack trace:
-[28-Sep-2016 16:52:18 Europe/Paris] PHP   1. {main}() C:\wamp\www\test\index.php:0
